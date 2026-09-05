@@ -1,0 +1,3 @@
+[submodule "lora-scripts"]
+	path = lora-scripts
+	url = https://github.com/wsalvin/lora-gui-lora-scripts.git
