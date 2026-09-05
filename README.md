@@ -2,8 +2,9 @@
 # Usage
 
 ### Required Dependencies
-Python 3.13 and Git
-venv
+install Python 3.13 and Git manually
+cd lora-gui
+python -m venv venv
 
 ## ✨ SD-Trainer GUI
 
