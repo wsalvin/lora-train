@@ -48,7 +48,7 @@ Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
 | `--localization`              | str   |               | Localization settings for the interface          |
 | `--dev`                       | bool  | false         | Developer mode to disale some checks             |
 
-##Log: Lora-Script-main 18:59 2026/9/5
+## Log: Lora-Script-main 18:59 2026/9/5
 18:56:29-228406 INFO     Starting SD-Trainer Mikazuki GUI...
 18:56:29-236385 INFO     Base directory: .\lora-gui\lora-scripts, Working
                          directory: .\lora-gui\lora-scripts
@@ -71,7 +71,7 @@ TensorBoard 2.10.1 at http://127.0.0.1:6006/ (Press CTRL+C to quit)
 18:57:11-048575 INFO     Torch backend: nVidia CUDA 12.8 cuDNN 90701
 18:57:11-188201 INFO     Torch detected GPU: NVIDIA GeForce MX110 VRAM 2048 Arch (5, 0) Cores 2
 
-##Log: ComfyUI Run GPU Mode 20:20 2026/9/5
+## Log: ComfyUI Run GPU Mode 20:20 2026/9/5
 (venv) F:\ComfyUI>python.exe -s ComfyUI\main.py --windows-standalone-build
 [32m[INFO][0m setup plugin alembic.autogenerate.schemas
 [32m[INFO][0m setup plugin alembic.autogenerate.tables
