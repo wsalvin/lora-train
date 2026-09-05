@@ -41,7 +41,7 @@ set venv
 
 ## Hardware Dirver
 install Nivdia Driver for your Card
-install PyTorch+CUDA PKGs
+install PyTorch+CUDA PKGs  
 `python -m pip install torch==2.7.0+cu128 torchvision==0.22.0+cu128 --index-url https://download.pytorch.org/whl/cu128`  
 Install more Python Modules dependencies , reference to #### Installation  
 
