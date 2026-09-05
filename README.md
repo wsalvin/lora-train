@@ -1,13 +1,55 @@
 ﻿# SD-Trainer
+
+<p align="center">
+  <a href="https://github.com/Akegarasu/lora-scripts" style="margin: 2px;">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Akegarasu/lora-scripts">
+  </a>
+  <a href="https://github.com/Akegarasu/lora-scripts" style="margin: 2px;">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Akegarasu/lora-scripts">
+  </a>
+  <a href="https://raw.githubusercontent.com/Akegarasu/lora-scripts/master/LICENSE" style="margin: 2px;">
+    <img src="https://img.shields.io/github/license/Akegarasu/lora-scripts" alt="license">
+  </a>
+  <a href="https://github.com/Akegarasu/lora-scripts/releases" style="margin: 2px;">
+    <img src="https://img.shields.io/github/v/release/Akegarasu/lora-scripts?color=blueviolet&include_prereleases" alt="release">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Akegarasu/lora-scripts/releases">Download</a> .
+  <a href="https://github.com/Akegarasu/lora-scripts/blob/main/README.md">Documents</a> .
+  <a href="https://github.com/Akegarasu/lora-scripts/blob/main/README-zh.md">中文README</a>
+</p>
+
+LoRA-scripts（又名 SD-Trainer）
+LoRA & Dreambooth 训练图形界面 & 脚本预设 & 一键训练环境，用于 [kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts.git)
+
+## ✨新特性: 训练 WebUI
+
+Stable Diffusion 训练工作台。一切集成于一个 WebUI 中。
+按照下面的安装指南安装 GUI，然后运行 `run_gui.ps1`(Windows) 或 `run_gui.sh`(Linux) 来启动 GUI。
+
+
 # Usage
 
-### Required Dependencies
+## Required Dependencies
 install Python 3.13 and Git manually
-cd lora-gui
-python -m venv venv
+`cd lora-gui  
+python -m venv venv  `    
+set venv
+'govenv.bat'
 
-Install more Python Modules dependencies , reference to #### Installation
-## ✨ SD-Trainer GUI
+## Hardware Dirver
+install Nivdia Driver for your Card
+install PyTorch+CUDA PKGs
+`python -m pip install torch==2.7.0+cu128 torchvision==0.22.0+cu128 --index-url https://download.pytorch.org/whl/cu128`  
+Install more Python Modules dependencies , reference to #### Installation  
+
+## Required for ComfyUI
+install python  requirements modules for ComfyUI. 
+More information reference to 'require4Comfyui' file.
+
+## ✨ Start SD-Trainer GUI
 
 ### Windows
 
@@ -30,9 +72,11 @@ open [http://127.0.0.1:28000](http://127.0.0.1:28000)
 #### Train
     Read lora-scripts/README.md for more information
 
-#### TensorBoard
+##TensorBoard
 
 Run `tensorboard.ps1` will start TensorBoard at http://localhost:6006/
+
+
 
 ## Program arguments
 
@@ -72,7 +116,10 @@ TensorBoard 2.10.1 at http://127.0.0.1:6006/ (Press CTRL+C to quit)
 18:57:11-048575 INFO     Torch backend: nVidia CUDA 12.8 cuDNN 90701  
 18:57:11-188201 INFO     Torch detected GPU: NVIDIA GeForce MX110 VRAM 2048 Arch (5, 0) Cores 2  
 
+
+
 ## Log: ComfyUI Run GPU Mode 20:20 2026/9/5
+
 (venv) F:\ComfyUI>python.exe -s ComfyUI\main.py --windows-standalone-build  
 [32m[INFO][0m setup plugin alembic.autogenerate.schemas  
 [32m[INFO][0m setup plugin alembic.autogenerate.tables  
